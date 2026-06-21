@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Windows
+Thumbs.db
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs & temp
+*.log
+*.tmp
+
+# Hand tracking specific
+__pycache__/
