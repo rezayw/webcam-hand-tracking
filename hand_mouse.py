@@ -140,7 +140,7 @@ def print_status(fps_val, gesture, n_curled, sx, sy, click=""):
     icon = icons.get(gesture, "—")
     name = names.get(gesture, "—")
     click_str = f"  {click}" if click else ""
-    line = f"\r{icon} {name}  |  Fingers:{4 - n_curled}  |  Screen:({sx},{sy})  |  FPS:{fps}{click_str}   "
+    line = f"\r{icon} {name}  |  Fingers:{4 - n_curled}  |  Screen:({sx},{sy})  |  FPS:{fps_val}{click_str}   "
     sys.stdout.write(line.ljust(80))
     sys.stdout.flush()
 
